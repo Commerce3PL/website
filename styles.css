@@ -83,14 +83,14 @@ h2{font-size:30px;letter-spacing:-1px}
 /* Each promise shares a column with its corresponding brand label. */
 .logo{gap:11px;flex-shrink:0}
 .logistics-mark{display:block;width:39px;height:43px;flex:0 0 39px}
-.identity-copy{display:grid;grid-template-columns:repeat(3,max-content);align-items:stretch;column-gap:10px;letter-spacing:normal}
+.identity-copy{display:grid;grid-template-columns:repeat(3,max-content);align-items:stretch;column-gap:4px;letter-spacing:normal}
 .identity-column{display:grid;grid-template-rows:30px auto;align-items:baseline;justify-items:start;row-gap:7px}
 .identity-name{font-family:Manrope,Arial,sans-serif;font-size:27px;font-weight:800;line-height:30px;letter-spacing:-1px;white-space:nowrap}
 .identity-3pl{align-self:end;padding-bottom:3px;font-family:Manrope,Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:0;line-height:1.1;color:var(--muted)}
 .identity-promise{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:0;line-height:1.4;white-space:nowrap;color:var(--green)}
 .identity-show .identity-name,.identity-show .identity-promise{color:#647e3d}
 @media(max-width:1050px) and (min-width:851px){.header nav{gap:10px}.identity-name{font-size:23px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.header{padding-left:4%;padding-right:4%}}
-@media(max-width:650px){.logo{gap:9px}.identity-copy{column-gap:9px}.identity-column{grid-template-rows:27px auto;row-gap:6px}.identity-name{font-size:24px;letter-spacing:-.9px;line-height:27px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.identity-promise{font-size:10.5px}}
+@media(max-width:650px){.logo{gap:9px}.identity-copy{column-gap:4px}.identity-column{grid-template-rows:27px auto;row-gap:6px}.identity-name{font-size:24px;letter-spacing:-.9px;line-height:27px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.identity-promise{font-size:10.5px}}
 
 /* Match the left edges of Stow/Show and the right edges of 3PL/Ship it. */
 .identity-column:last-child{justify-items:end}
