@@ -96,3 +96,5 @@ h2{font-size:30px;letter-spacing:-1px}
 .identity-column:last-child{justify-items:end}
 
 .identity-column:last-child .identity-promise{color:var(--muted)}
+
+.identity-column:last-child{transform:translateX(-2px)}
