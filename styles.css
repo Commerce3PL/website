@@ -80,31 +80,16 @@ h2{font-size:30px;letter-spacing:-1px}
 .logo .brand-name .logo-light{font-size:12px;font-weight:500;letter-spacing:2px;line-height:1.4}
 @media(max-width:380px){.header>.logo{width:100%}.header>.button{flex:1}.header .menu-toggle{width:auto;flex:1}}
 
-/* A folded carton mark and a two-line logistics wordmark. */
+/* Align both brand rows to the same edges with balanced spacing. */
 .logo{gap:11px;flex-shrink:0}
 .logistics-mark{display:block;width:39px;height:43px;flex:0 0 39px}
-.identity-copy{display:flex;flex-direction:column;gap:7px}
-.identity-name{font-family:Manrope,Arial,sans-serif;font-size:27px;font-weight:800;line-height:1;letter-spacing:-1.4px;white-space:nowrap}
+.identity-copy{display:inline-grid;grid-template-columns:max-content;gap:7px;letter-spacing:normal}
+.identity-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.identity-name{font-family:Manrope,Arial,sans-serif;font-size:27px;font-weight:800;line-height:1.1;letter-spacing:-1px;white-space:nowrap}
 .identity-name>span{color:#647e3d}
-.identity-detail{display:flex;align-items:center;gap:9px;font-family:'DM Sans',Arial,sans-serif;letter-spacing:1.2px;font-size:8px;line-height:1.4;font-weight:600}
-.identity-detail strong{font-size:11px;font-weight:800;letter-spacing:.8px;padding-right:9px;border-right:1px solid #b7c3ac}
-.identity-detail>span{color:var(--muted)}
-@media(max-width:1050px) and (min-width:851px){.header nav{gap:10px}.identity-name{font-size:23px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.header{padding-left:4%;padding-right:4%}}
-@media(max-width:650px){.logo{gap:9px}.identity-name{font-size:24px;letter-spacing:-1.2px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.identity-detail{font-size:7px;letter-spacing:.9px}.identity-detail strong{font-size:10px}}
-
-/* Keep 3PL directly beneath the Stow Show name. */
-.identity-heading>.identity-3pl{display:block;color:var(--green);font-size:12px;font-weight:800;letter-spacing:0;line-height:1}
-.identity-copy{gap:6px}
-@media(max-width:650px){.identity-name{font-size:22px;letter-spacing:-1.2px}}
-
-/* Emphasize the three promises beneath the brand. */
-.identity-copy{gap:7px}
-.identity-detail.brand-motto{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:800;letter-spacing:-.15px;line-height:1.3;white-space:nowrap}
-.identity-detail.brand-motto>span{color:var(--green)}
-
-@media(max-width:650px){.identity-detail.brand-motto{font-size:11px;gap:4px}}
-
-.identity-heading{display:flex;flex-direction:row;align-items:baseline;align-self:flex-start;gap:7px}
 .identity-heading>.identity-3pl{font-size:11px;font-weight:600;letter-spacing:0;line-height:1;color:var(--muted)}
-
+.identity-detail.brand-motto{display:flex;align-items:center;justify-content:space-between;gap:9px;font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:0;line-height:1.4;white-space:nowrap}
+.identity-detail.brand-motto>span{color:var(--green)}
 .identity-detail.brand-motto>span:nth-child(2){color:#647e3d}
+@media(max-width:1050px) and (min-width:851px){.header nav{gap:10px}.identity-name{font-size:23px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.header{padding-left:4%;padding-right:4%}}
+@media(max-width:650px){.logo{gap:9px}.identity-copy{gap:6px}.identity-name{font-size:24px;letter-spacing:-.9px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.identity-detail.brand-motto{font-size:10.5px;gap:8px}}
