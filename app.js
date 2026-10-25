@@ -25,8 +25,8 @@ for (const link of document.querySelectorAll('[data-service]')) {
 document.getElementById('inquiry-form').addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(event.currentTarget);
-  const inquiry = `Stow Show 3PL inquiry\n\nName: ${data.get('name')}\nEmail: ${data.get('email')}\nCompany: ${data.get('company')}\nService: ${data.get('service')}\n\n${data.get('message')}\n`;
-  const subject = `Stow Show 3PL inquiry: ${data.get('service')}`;
+  const inquiry = `Stow Flow 3PL inquiry\n\nName: ${data.get('name')}\nEmail: ${data.get('email')}\nCompany: ${data.get('company')}\nService: ${data.get('service')}\n\n${data.get('message')}\n`;
+  const subject = `Stow Flow 3PL inquiry: ${data.get('service')}`;
   window.location.href = `mailto:stowflow3pl.la@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(inquiry)}`;
   document.getElementById('form-status').textContent = 'Your email app will open with your inquiry. Review it and press Send. If it does not open, email stowflow3pl.la@gmail.com directly.';
 });
