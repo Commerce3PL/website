@@ -96,3 +96,10 @@ h2{font-size:30px;letter-spacing:-1px}
 .identity-copy>.identity-3pl{display:block;color:var(--green);font-size:12px;font-weight:800;letter-spacing:2.5px;line-height:1}
 .identity-copy{gap:6px}
 @media(max-width:650px){.identity-name{font-size:22px;letter-spacing:-1.2px}}
+
+/* Emphasize the three promises beneath the brand. */
+.identity-copy{gap:7px}
+.identity-detail.brand-motto{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:800;letter-spacing:-.15px;line-height:1.3;white-space:nowrap}
+.identity-detail.brand-motto>span{color:var(--green)}
+.identity-detail.brand-motto>span:nth-child(2){background:var(--lime);border-radius:4px;padding:4px 6px;transform:rotate(-3deg)}
+@media(max-width:650px){.identity-detail.brand-motto{font-size:11px;gap:4px}}
