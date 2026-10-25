@@ -93,7 +93,7 @@ h2{font-size:30px;letter-spacing:-1px}
 @media(max-width:650px){.logo{gap:9px}.identity-name{font-size:24px;letter-spacing:-1.2px}.logistics-mark{width:34px;height:38px;flex-basis:34px}.identity-detail{font-size:7px;letter-spacing:.9px}.identity-detail strong{font-size:10px}}
 
 /* Keep 3PL directly beneath the Stow Show name. */
-.identity-copy>.identity-3pl{display:block;color:var(--green);font-size:12px;font-weight:800;letter-spacing:2.5px;line-height:1}
+.identity-copy>.identity-3pl{display:block;color:var(--green);font-size:12px;font-weight:800;letter-spacing:0;line-height:1}
 .identity-copy{gap:6px}
 @media(max-width:650px){.identity-name{font-size:22px;letter-spacing:-1.2px}}
 
