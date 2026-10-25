@@ -108,3 +108,8 @@ h2{font-size:30px;letter-spacing:-1px}
 .hero-image .image-top{top:22px;left:22px;right:22px;justify-content:flex-start}
 .hero-image .image-top>span{font-size:clamp(13px,1.3vw,18px);font-family:Manrope,Arial,sans-serif;font-weight:600;line-height:1.4;letter-spacing:1.2px;color:white;background:transparent;padding:0;border-radius:0;box-shadow:none;text-shadow:0 1px 6px #0009}
 @media(max-width:650px){.hero-image .image-top{top:16px;left:16px;right:16px}.hero-image .image-top>span{font-size:13px;padding:0}}
+
+/* Center the two hero image statements independently of the location label. */
+.hero-image .image-top{justify-content:center;text-align:center}
+.hero-image .image-label{display:block;width:100%;text-align:center}
+.hero-image .image-bottom .location{position:absolute;right:0;bottom:-42px}
