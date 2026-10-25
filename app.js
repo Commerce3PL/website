@@ -31,11 +31,3 @@ document.getElementById('inquiry-form').addEventListener('submit', (event) => {
   document.getElementById('form-status').textContent = 'Your email app will open with your inquiry. Review it and press Send. If it does not open, email stowflow3pl.la@gmail.com directly.';
 });
 
-const ticker = document.querySelector('.ticker');
-const tickerToggle = document.querySelector('.ticker-toggle');
-tickerToggle.addEventListener('click', () => {
-  const paused = ticker.classList.toggle('is-paused');
-  tickerToggle.setAttribute('aria-pressed', String(paused));
-  tickerToggle.setAttribute('aria-label', paused ? 'Resume scrolling services' : 'Pause scrolling services');
-  tickerToggle.textContent = paused ? 'Resume' : 'Pause';
-});
