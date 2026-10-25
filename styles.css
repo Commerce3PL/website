@@ -94,3 +94,5 @@ h2{font-size:30px;letter-spacing:-1px}
 
 /* Match the left edges of Stow/Show and the right edges of 3PL/Ship it. */
 .identity-column:last-child{justify-items:end}
+
+.identity-column:last-child .identity-promise{color:var(--muted)}
